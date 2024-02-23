@@ -1,0 +1,12 @@
+controlleur\TraitmentDonnees.class
+controlleur\TraitmentPanier.class
+model\DataManager.class
+controlleur\TraitmentUser.class
+model\Command.class
+controlleur\TraitmentRechercher.class
+controlleur\TraitmentMotPasse.class
+controlleur\TraitementLangue.class
+model\Product.class
+constantes\SqlConstantes.class
+model\PasswordManager.class
+model\User.class

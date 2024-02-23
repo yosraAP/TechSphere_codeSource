@@ -1,0 +1,139 @@
+/* 
+    Created on : 25 nov. 2022, 09 h 19 min 39 s
+    Author     : Yosra houas - Saba Afshar Ghasemloo
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --violet: #BA7EFC;
+    --pink:#e5345b;
+    --viloetdark:#5F21A5 ;
+    --darkPink:#A409C3;
+    --blue:#5397F8;
+    --darkblue:#5C0CFD;
+    
+}
+
+body{
+    padding-top: 8em;
+    font-family: var(--sm-font);
+    margin: 0;
+    background-color: rgba(299,299,299,0.4);
+    padding: 0;
+    position: relative;
+    min-height: 100vh; 
+}
+
+.product{
+    width: 290px;
+    height:auto;
+    display: inline-block;
+    margin: 5px;
+    position: relative;
+}
+
+.carousel-caption{
+    padding-bottom: 230px;
+   
+}
+
+
+.product img {
+    width: 100%;
+}
+
+.bg-primary{
+    background-color: var(--violet)!important;
+}
+.text-primary{
+    color: var(--darkblue)!important;
+    
+}
+.text-danger{
+    color: var(--darkPink)!important;
+}
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img{
+    width: 50px
+}
+
+.imgages{
+    width: 80px;
+}
+
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+    
+}
+.navbar-brand span:hover{
+    color: var(--violet)!important;
+    font-weight: bold;
+    
+}
+.nav-link:hover{
+    color: var(--violet)!important;
+    font-weight: bold;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+.dropdown-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   margin-top: 15px;
+   padding: 15px;
+   background-color: var(--violet);
+   text-align: center;
+    
+}
+titre1{
+    font-weight: 600;
+    font-size: 60px;
+    font-family: var(--lg-font);
+    color:black;
+    padding: 20px;
+}
+.titre1 span{
+     color: var(--viloetdark);
+}
+.btn_panier{
+    margin-top: 12px;
+    background-color:var(--viloetdark);
+    padding: 5px;
+    color: #fff;
+    border-radius:5px;
+    border: none;
+}
+.btn_panier:hover{
+    margin-top: 12px;
+    background-color: #fff;
+    color: #5F21A5;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #5F21A5;
+}
+
+
+/*Media Queries*/
+@media(min-width: 992px){
+    .nav-item{
+        border-bottom: none;
+    }
+    .dropdown-item{
+        border-bottom: none;
+    }
+
+}
+   

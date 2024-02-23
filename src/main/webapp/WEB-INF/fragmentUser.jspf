@@ -1,0 +1,5 @@
+<%@ page pageEncoding="UTF-8" %>
+
+   ${sessionScope.infoUser.nom}  
+   
+   ${sessionScope.infoUser.prenom}
